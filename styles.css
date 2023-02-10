@@ -1,0 +1,65 @@
+.house {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    border-top-right-radius: 65px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.roof{
+    width: 100%;
+    height: 50%;
+    background-color: #2a2a2a;
+    transform: skew(30deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.chimney{
+    width: 30px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+.door{
+    width: 40%;
+    height: 60%;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+.door-key{
+    background-color: #fff;
+    width: 10px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right: 10px;
+}
+
+.windows{
+    position: absolute;
+    top: 30px;
+    left:10px;
+}
+
+.window{
+    width: 30%;
+    height: 30%;
+    background-color: red;
+    display: inline-block;
+    margin-right: 10px;
+}
